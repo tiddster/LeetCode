@@ -5,7 +5,7 @@ import java.util.Scanner;
 /*
 T7整数反转
  */
-public class T7ZhengShuFanZhuan {
+class T7ZhengShuFanZhuan {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
         int i = in.nextInt();

@@ -3,7 +3,7 @@ import java.util.Scanner;
 /*
 T6Z字形转换
  */
-public class T6Z {
+class T6Z {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
         String s = in.next();

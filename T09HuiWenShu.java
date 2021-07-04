@@ -3,7 +3,7 @@ import java.util.Scanner;
 /*
 T9 回文数
  */
-public class T9HuiWenShu {
+class T9HuiWenShu {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
         int i = in.nextInt();
