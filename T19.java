@@ -26,6 +26,6 @@ public class T19 {
             node = node.next;
         }
         node.next = node.next.next;
-        return newHead.next;git
+        return newHead.next;
     }
 }
