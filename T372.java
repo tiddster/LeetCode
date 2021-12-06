@@ -24,6 +24,10 @@ public class T372 {
         return (part1 * part2) % base;
     }
 
+    /**
+    *      (a * b) % k = [(a % k) * (b % k)] % k
+     **/
+
     private int quickPow(int a, int b){
         if(b == 0)
             return 1;
