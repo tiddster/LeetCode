@@ -8,10 +8,9 @@ public class T1816 {
         for(char c : s.toCharArray()){
             res += c;
             if(c==' '){
-                res+=" ";
                 if(++i==k) break;
             }
         }
-        return res.substring(0,res.length()-1);
+        return res.length()!=s.length()?res.substring(0,res.length()-1):res;
     }
 }
